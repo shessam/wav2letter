@@ -1,0 +1,2586 @@
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_sequential - mkl_core - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_sequential: /opt/intel/mkl/lib/intel64/libmkl_sequential.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - found
+-- MKL library found
+-- ArrayFire found (include: /home/hessam/git/arrayfire/include, library: ArrayFire::afcuda)
+-- Found Glog: /usr/include  
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- GLOG found
+-- Found GFlags: /usr/include  
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- GFLAGS found
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- OpenMP found
+-- flashlight found (include:  lib: flashlight::flashlight )
+-- flashlight built in distributed mode.
+-- flashlight built with contrib features.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- CUDA found (library: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so include: /usr/local/cuda/include)
+-- CUDA architecture flags: -gencodearch=compute_30,code=sm_30-gencodearch=compute_35,code=sm_35-gencodearch=compute_50,code=sm_50-gencodearch=compute_52,code=sm_52-gencodearch=compute_60,code=sm_60-gencodearch=compute_61,code=sm_61-gencodearch=compute_70,code=sm_70-gencodearch=compute_75,code=sm_75-gencodearch=compute_70,code=compute_70-gencodearch=compute_75,code=compute_75
+-- CBLAS found (include: /opt/intel/mkl/include, library: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so;/opt/intel/mkl/lib/intel64/libmkl_sequential.so;/opt/intel/mkl/lib/intel64/libmkl_core.so;/usr/lib/x86_64-linux-gnu/libm.so)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found FFTW: /usr/include  
+-- FFTW found
+-- Looking for KenLM
+-- Using kenlm library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- Using kenlm utils library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- kenlm lm/model.hh found in /home/hessam/kenlm/lm/model.hh
+-- Found kenlm: /home/hessam/kenlm  
+-- Found kenlm (include: /home/hessam/kenlm, library: /home/hessam/kenlm/build/lib/libkenlm.a;/home/hessam/kenlm/build/lib/libkenlm_util.a)
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Found LibLZMA: /usr/include (found version "5.2.2") 
+-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.6") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Adding warpctc:
+-- Found CUDA: /usr/local/cuda (found suitable version "10.0", minimum required is "6.5") 
+-- warpctc: cuda found TRUE
+-- warpctc: using CUDA 9.0 or above
+-- warpctc: Building shared library with GPU support
+-- Found Ogg: /usr/lib/x86_64-linux-gnu/libogg.so (found version "1.3.2") 
+-- Required SndFile dependency Ogg found.
+-- Found Vorbis: /usr/lib/x86_64-linux-gnu/libvorbis.so (found version "1.3.5") 
+-- Required SndFile dependency Vorbis found.
+-- Found VorbisEnc: /usr/lib/x86_64-linux-gnu/libvorbisenc.so (found version "1.3.5") 
+-- Required SndFile dependency VorbisEnc found.
+-- Found FLAC: /usr/lib/x86_64-linux-gnu/libFLAC.so (found version "1.3.2") 
+-- Required SndFile dependency FLAC found.
+-- Found SNDFILE: /usr/local/include  
+-- Found libsndfile: (lib: /usr/local/lib/libsndfile.a include: /usr/local/include
+-- libsndfile found.
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- GFLAGS found
+-- Looking for KenLM
+-- Using kenlm library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- Using kenlm utils library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- kenlm lm/model.hh found in /home/hessam/kenlm/lm/model.hh
+-- Found kenlm (include: /home/hessam/kenlm, library: /home/hessam/kenlm/build/lib/libkenlm.a;/home/hessam/kenlm/build/lib/libkenlm_util.a)
+ExternalProject_Add(fbgemm) downloading ...
+-- Examples: add executable simple_streaming_asr_example
+-- Examples: add executable multithreaded_streaming_asr_example
+-- Tests: add executable inference_Conv1dTest
+-- Tests: add executable inference_IdentityTest
+-- Tests: add executable inference_LayerNormTest
+-- Tests: add executable inference_LinearTest
+-- Tests: add executable inference_LogMelFeatureTest
+-- Tests: add executable inference_MemoryManagerTest
+-- Tests: add executable inference_ReluTest
+-- Tests: add executable inference_ResidualTest
+-- Tests: add executable inference_TDSBlockTest
+-- Building recipes.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hessam/wav2letter/build
+hessam@hessam:~/wav2letter/build$ sudo docker run --runtime=nvidia --rm -itd --ipc=host --name w2l wav2letter/wav2letter:cuda-latest
+[sudo] password for hessam: 
+docker: Error response from daemon: Unknown runtime specified nvidia.
+See 'docker run --help'.
+hessam@hessam:~/wav2letter/build$ make -j6
+[  0%] Building NVCC (Device) object src/third_party/warpctc/CMakeFiles/warpctc.dir/src/warpctc_generated_reduce.cu.o
+[  0%] Building NVCC (Device) object src/third_party/warpctc/CMakeFiles/warpctc.dir/src/warpctc_generated_ctc_entrypoint.cu.o
+Scanning dependencies of target gtest
+Scanning dependencies of target CUB
+Scanning dependencies of target fbgemm
+Scanning dependencies of target cereal
+[  0%] Creating directories for 'gtest'
+[  0%] Creating directories for 'cereal'
+[  1%] Creating directories for 'CUB'
+[  1%] Creating directories for 'fbgemm'
+[  1%] Performing download step (git clone) for 'gtest'
+[  1%] Performing download step (git clone) for 'CUB'
+[  1%] Performing download step (git clone) for 'cereal'
+[  1%] Performing download step (git clone) for 'fbgemm'
+Cloning into 'CUB'...
+Cloning into 'cereal'...
+Cloning into 'gtest'...
+Cloning into 'fbgemm'...
+Note: checking out 'b35b183e45a8b9af50efe29c7fd1b2460ad16182'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b35b183 Add an API to unintrusively unpack PackedGemmMatrixFP16 (#201)
+Submodule 'third_party/asmjit' (https://github.com/asmjit/asmjit.git) registered for path 'third_party/asmjit'
+Submodule 'third_party/cpuinfo' (https://github.com/pytorch/cpuinfo) registered for path 'third_party/cpuinfo'
+Submodule 'third_party/googletest' (https://github.com/google/googletest) registered for path 'third_party/googletest'
+Cloning into '/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit'...
+Note: checking out '2fe3bd994b3189899d93f1d5a881e725e046fdc2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 2fe3bd99 Merge pull request #1433 from dsacre/fix-clang-warnings
+[  1%] No patch step for 'gtest'
+[  1%] Performing update step for 'gtest'
+[  1%] Performing configure step for 'gtest'
+loading initial cache file /home/hessam/wav2letter/build/src/tests/googletest/tmp/gtest-cache-Release.cmake
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hessam/wav2letter/build/src/tests/googletest/src/gtest
+[  1%] Performing build step for 'gtest'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+Scanning dependencies of target gtest
+[ 12%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 25%] Linking CXX static library libgtest.a
+[ 25%] Built target gtest
+Scanning dependencies of target gmock
+[ 37%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 50%] Linking CXX static library libgmock.a
+[ 50%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 62%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 75%] Linking CXX static library libgmock_main.a
+[ 75%] Built target gmock_main
+Scanning dependencies of target gtest_main
+[ 87%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[100%] Linking CXX static library libgtest_main.a
+[100%] Built target gtest_main
+[  1%] No install step for 'gtest'
+[  1%] Completed 'gtest'
+[  1%] Built target gtest
+Note: checking out '319ce5f5ee5b76cb80617156bf7c95474a2938b1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 319ce5f5 Merge pull request #520 from uentity/fix-dll-export
+[  1%] Performing update step for 'cereal'
+[  1%] No patch step for 'cereal'
+[  1%] Performing configure step for 'cereal'
+loading initial cache file /home/hessam/wav2letter/build/inference/cereal/tmp/cereal-cache-Release.cmake
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+Cloning into '/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo'...
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hessam/wav2letter/build/inference/cereal/src/cereal
+[  2%] Performing build step for 'cereal'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[  2%] No install step for 'cereal'
+[  2%] Completed 'cereal'
+[  2%] Built target cereal
+Scanning dependencies of target streaming_inference_common
+[  2%] Building CXX object inference/inference/common/CMakeFiles/streaming_inference_common.dir/Functions.cpp.o
+[  2%] Building CXX object inference/inference/common/CMakeFiles/streaming_inference_common.dir/DataType.cpp.o
+[  2%] Building CXX object inference/inference/common/CMakeFiles/streaming_inference_common.dir/DefaultMemoryManager.cpp.o
+[  2%] Building CXX object inference/inference/common/CMakeFiles/streaming_inference_common.dir/IOBuffer.cpp.o
+[  2%] Linking CXX static library libstreaming_inference_common.a
+[  2%] Built target streaming_inference_common
+Scanning dependencies of target streaming_inference_modules_feature
+Scanning dependencies of target util_example
+[  2%] Building CXX object inference/inference/module/CMakeFiles/streaming_inference_modules_feature.dir/feature/LogMelFeature.cpp.o
+[  2%] Building CXX object inference/inference/examples/CMakeFiles/util_example.dir/Util.cpp.o
+[  2%] Linking CXX static library libutil_example.a
+[  2%] Built target util_example
+[  2%] Linking CXX static library libstreaming_inference_modules_feature.a
+[  2%] Built target streaming_inference_modules_feature
+Scanning dependencies of target warpctc
+[  2%] Linking CXX shared library libwarpctc.so
+[  2%] Built target warpctc
+Cloning into '/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/googletest'...
+Submodule path 'third_party/asmjit': checked out '17556b2d4984ab67bdc00e6b5a626efc75d95e07'
+Submodule path 'third_party/cpuinfo': checked out 'd5e37adf1406cf899d7d9ec1d317c47506ccb970'
+Submodule path 'third_party/googletest': checked out '0fc5466dbb9e623029b1ada539717d10bd45e99e'
+[  2%] No patch step for 'fbgemm'
+[  2%] Performing update step for 'fbgemm'
+[  2%] Performing configure step for 'fbgemm'
+loading initial cache file /home/hessam/wav2letter/build/inference/inference/module/fbgemm/tmp/fbgemm-cache-Release.cmake
+-- The CXX compiler identification is GNU 7.4.0
+-- The C compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test COMPILER_SUPPORTS_AVX512
+-- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Performing Test __CxxFlag__fmerge_all_constants
+-- Performing Test __CxxFlag__fmerge_all_constants - Success
+** AsmJit Summary **
+   ASMJIT_DIR=/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit
+   ASMJIT_TEST=FALSE
+   ASMJIT_TARGET_TYPE=STATIC
+   ASMJIT_DEPS=pthread;rt
+   ASMJIT_LIBS=asmjit;pthread;rt
+   ASMJIT_CFLAGS=-DASMJIT_STATIC
+   ASMJIT_PRIVATE_CFLAGS=-Wall;-Wextra;-fno-math-errno;-fno-threadsafe-statics;-DASMJIT_STATIC
+   ASMJIT_PRIVATE_CFLAGS_DBG=
+   ASMJIT_PRIVATE_CFLAGS_REL=-O2;-fmerge-all-constants
+CMake Warning (dev) at third_party/cpuinfo/CMakeLists.txt:6 (PROJECT):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm
+[  2%] Performing build step for 'fbgemm'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+Scanning dependencies of target fbgemm_avx2
+[  1%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/FbgemmFP16UKernelsAvx2.cc.o
+[  2%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/FbgemmI8Depthwise3DAvx2.cc.o
+[  2%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/FbgemmI8Depthwise3x3Avx2.cc.o
+[  3%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/FbgemmI8DepthwiseAvx2.cc.o
+Note: checking out 'c3cceac115c072fb63df1836ff46d8c60d9eb304'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c3cceac1 update readme to 1.8.0
+[  2%] No patch step for 'CUB'
+[  2%] Performing update step for 'CUB'
+[  2%] No configure step for 'CUB'
+[  2%] No build step for 'CUB'
+[  2%] No install step for 'CUB'
+[  2%] Completed 'CUB'
+[  2%] Built target CUB
+[  2%] Building NVCC (Device) object src/libraries/criterion/CMakeFiles/w2l-criterion-library-cuda.dir/cuda/w2l-criterion-library-cuda_generated_CriterionUtils.cu.o
+[  2%] Building NVCC (Device) object src/libraries/criterion/CMakeFiles/w2l-criterion-library-cuda.dir/cuda/w2l-criterion-library-cuda_generated_ViterbiPath.cu.o
+[  2%] Building NVCC (Device) object src/libraries/criterion/CMakeFiles/w2l-criterion-library-cuda.dir/cuda/w2l-criterion-library-cuda_generated_FullConnectionCriterion.cu.o
+[  2%] Building NVCC (Device) object src/libraries/criterion/CMakeFiles/w2l-criterion-library-cuda.dir/cuda/w2l-criterion-library-cuda_generated_ForceAlignmentCriterion.cu.o
+Scanning dependencies of target w2l-criterion-library-cuda
+[  2%] Linking CXX static library libw2l-criterion-library-cuda.a
+[  2%] Built target w2l-criterion-library-cuda
+Scanning dependencies of target wav2letter-libraries
+[  2%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/common/Dictionary.cpp.o
+[  2%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/criterion/cpu/CriterionUtils.cpp.o
+[  2%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/common/Utils.cpp.o
+[  2%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/common/WordUtils.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/criterion/cpu/FullConnectionCriterion.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/criterion/cpu/ViterbiPath.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/LexiconDecoder.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/LexiconFreeDecoder.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/LexiconSeq2SeqDecoder.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/Trie.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/decoder/Utils.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/lm/KenLM.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/lm/ConvLM.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/lm/ZeroLM.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Ceplifter.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Dct.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Derivatives.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Dither.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Mfcc.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Mfsc.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/PowerSpectrum.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/PreEmphasis.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/SpeechUtils.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/TriFilterbank.cpp.o
+[  3%] Building CXX object src/libraries/CMakeFiles/wav2letter-libraries.dir/feature/Windowing.cpp.o
+[  4%] Linking CXX static library libwav2letter-libraries.a
+[  4%] Built target wav2letter-libraries
+Scanning dependencies of target wav2letter++
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/common/Dictionary.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/common/WordUtils.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/common/Utils.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/criterion/cpu/CriterionUtils.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/criterion/cpu/ViterbiPath.cpp.o
+[  4%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/LexiconDecoder.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/LexiconFreeDecoder.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/Trie.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/decoder/Utils.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/lm/KenLM.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/lm/ConvLM.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/lm/ZeroLM.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Ceplifter.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Dct.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Derivatives.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Dither.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Mfcc.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Mfsc.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/PowerSpectrum.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/PreEmphasis.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/SpeechUtils.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/TriFilterbank.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/libraries/feature/Windowing.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/common/Defines.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/common/FlashlightUtils.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/common/Transforms.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/common/Utils.cpp.o
+[  5%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/backend/cuda/CriterionUtils.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/CriterionUtils.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/ForceAlignmentCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/Seq2SeqCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/FullConnectionCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/TransformerCriterion.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/ContentAttention.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/LocationAttention.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/MultiHeadAttention.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/MedianWindow.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/SoftPretrainWindow.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/SoftWindow.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/criterion/attention/StepWindow.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/Featurize.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/ListFileDataset.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/Sound.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/Utils.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/W2lDataset.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/W2lBlobsDataset.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/data/W2lListFilesDataset.cpp.o
+[  6%] Building CXX object CMakeFiles/wav2letter++.dir/src/module/ConvLmModule.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/module/SpecAugment.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/module/TDSBlock.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/module/W2lModule.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Data.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Logger.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Serial.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/SpeechStatMeter.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Distributed.cpp.o
+[  4%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/FbgemmI8DepthwisePerChannelQuantAvx2.cc.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Optimizer.cpp.o
+[  7%] Building CXX object CMakeFiles/wav2letter++.dir/src/runtime/Helpers.cpp.o
+[  7%] Linking CXX static library libwav2letter++.a
+[  7%] Built target wav2letter++
+Scanning dependencies of target Train
+Scanning dependencies of target Decoder
+Scanning dependencies of target Test
+Scanning dependencies of target W2lModuleTest
+Scanning dependencies of target RuntimeTest
+[  7%] Building CXX object CMakeFiles/Decoder.dir/Decode.cpp.o
+[  7%] Building CXX object CMakeFiles/Test.dir/Test.cpp.o
+[  8%] Building CXX object CMakeFiles/Train.dir/Train.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/module/test/W2lModuleTest.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/test/RuntimeTest.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/common/Dictionary.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/common/Utils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/common/Dictionary.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/common/WordUtils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/common/Utils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/criterion/cpu/CriterionUtils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/common/WordUtils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/criterion/cpu/CriterionUtils.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[  8%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/criterion/cpu/ViterbiPath.cpp.o
+[  9%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/LexiconDecoder.cpp.o
+[  9%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[  9%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/criterion/cpu/ViterbiPath.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/LexiconDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/common/Dictionary.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/common/Utils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/Trie.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/common/WordUtils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/decoder/Utils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/lm/KenLM.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/Trie.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/lm/ConvLM.cpp.o
+[ 10%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/common/Dictionary.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/criterion/cpu/CriterionUtils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/decoder/Utils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/lm/KenLM.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[ 10%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/common/Utils.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/lm/ZeroLM.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/lm/ConvLM.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Ceplifter.cpp.o
+[ 10%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/common/WordUtils.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/criterion/cpu/ViterbiPath.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Dct.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/LexiconDecoder.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Derivatives.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Dither.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/lm/ZeroLM.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Mfcc.cpp.o
+[ 10%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/criterion/cpu/CriterionUtils.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Ceplifter.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Mfsc.cpp.o
+[ 10%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Dct.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Derivatives.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/PowerSpectrum.cpp.o
+[ 10%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Dither.cpp.o
+[ 10%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Mfcc.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/PreEmphasis.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/SpeechUtils.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/criterion/cpu/ViterbiPath.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Mfsc.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/LexiconDecoder.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/TriFilterbank.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/PowerSpectrum.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/libraries/feature/Windowing.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/common/Defines.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/PreEmphasis.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/SpeechUtils.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/common/FlashlightUtils.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/TriFilterbank.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/libraries/feature/Windowing.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/common/Defines.cpp.o
+[ 11%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/common/FlashlightUtils.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/Trie.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/decoder/Utils.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/lm/KenLM.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/lm/ConvLM.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/Trie.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/lm/ZeroLM.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/decoder/Utils.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/lm/KenLM.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Ceplifter.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Dct.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Derivatives.cpp.o
+[ 11%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/lm/ConvLM.cpp.o
+[ 11%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Dither.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Mfcc.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Mfsc.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/lm/ZeroLM.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/PowerSpectrum.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Ceplifter.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Dct.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Derivatives.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/PreEmphasis.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Dither.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/SpeechUtils.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/TriFilterbank.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Mfcc.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/libraries/feature/Windowing.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Mfsc.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/common/Defines.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/PowerSpectrum.cpp.o
+[ 12%] Building CXX object CMakeFiles/Test.dir/src/common/FlashlightUtils.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/PreEmphasis.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/SpeechUtils.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/TriFilterbank.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/libraries/feature/Windowing.cpp.o
+[ 12%] Building CXX object CMakeFiles/Decoder.dir/src/common/Defines.cpp.o
+[ 13%] Building CXX object CMakeFiles/Decoder.dir/src/common/FlashlightUtils.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/common/Dictionary.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/common/Utils.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/common/WordUtils.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/criterion/cpu/CriterionUtils.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/criterion/cpu/ViterbiPath.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/LexiconDecoder.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 13%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 13%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/common/Transforms.cpp.o
+[ 13%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/common/Utils.cpp.o
+[ 14%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 14%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 14%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/common/Transforms.cpp.o
+[ 15%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/common/Utils.cpp.o
+[ 15%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/Trie.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/decoder/Utils.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/lm/KenLM.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/lm/ConvLM.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/lm/ZeroLM.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Ceplifter.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Dct.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Derivatives.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Dither.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Mfcc.cpp.o
+[ 15%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Mfsc.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/PowerSpectrum.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/PreEmphasis.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/SpeechUtils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/TriFilterbank.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/libraries/feature/Windowing.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/common/Defines.cpp.o
+[  5%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/OptimizedKernelsAvx2.cc.o
+[  6%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/PackDepthwiseConvMatrixAvx2.cc.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/common/FlashlightUtils.cpp.o
+[  6%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/QuantUtilsAvx2.cc.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/common/Transforms.cpp.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/common/Utils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/common/Transforms.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/common/Utils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[  7%] Building CXX object CMakeFiles/fbgemm_avx2.dir/src/UtilsAvx2.cc.o
+[  7%] Built target fbgemm_avx2
+Scanning dependencies of target fbgemm_generic
+[  7%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/ExecuteKernel.cc.o
+[  8%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/ExecuteKernelU8S8.cc.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/common/Transforms.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/common/Utils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[  9%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/Fbgemm.cc.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 10%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmFP16.cc.o
+[ 10%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmConv.cc.o
+[ 11%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmI64.cc.o
+[ 12%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmI8Spmdm.cc.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 13%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmSpConv.cc.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 13%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/FbgemmSpMM.cc.o
+[ 14%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC16.cc.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 15%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC16Avx512.cc.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 16%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC16Avx512VNNI.cc.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 16%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC32.cc.o
+[ 17%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC32Avx512.cc.o
+[ 18%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GenerateKernelU8S8S32ACC32Avx512VNNI.cc.o
+[ 19%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/GroupwiseConvAcc32Avx2.cc.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 19%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackAMatrix.cc.o
+[ 20%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackAWithIm2Col.cc.o
+[ 21%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackBMatrix.cc.o
+[ 22%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackMatrix.cc.o
+[ 22%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackAWithQuantRowOffset.cc.o
+[ 23%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackAWithRowOffset.cc.o
+[ 24%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackWeightMatrixForGConv.cc.o
+[ 25%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/PackWeightsForConv.cc.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 25%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/QuantUtils.cc.o
+[ 26%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/RefImplementations.cc.o
+[ 27%] Building CXX object CMakeFiles/fbgemm_generic.dir/src/Utils.cc.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 27%] Built target fbgemm_generic
+Scanning dependencies of target asmjit
+[ 27%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/arch.cpp.o
+[ 28%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/assembler.cpp.o
+[ 29%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/builder.cpp.o
+[ 30%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/callconv.cpp.o
+[ 30%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/codeholder.cpp.o
+[ 31%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/compiler.cpp.o
+[ 32%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/constpool.cpp.o
+[ 33%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/cpuinfo.cpp.o
+[ 33%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/emitter.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 34%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/func.cpp.o
+[ 35%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/globals.cpp.o
+[ 36%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/inst.cpp.o
+[ 36%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/jitallocator.cpp.o
+[ 37%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/jitruntime.cpp.o
+[ 38%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/logging.cpp.o
+[ 39%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/operand.cpp.o
+[ 39%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/osutils.cpp.o
+[ 40%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/ralocal.cpp.o
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit/src/asmjit/core/ralocal.cpp: In member function ‘asmjit::Error asmjit::RALocalAllocator::allocBranch(asmjit::InstNode*, asmjit::RABlock*, asmjit::RABlock*)’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit/src/asmjit/core/ralocal.cpp:833:79: warning: unused parameter ‘cont’ [-Wunused-parameter]
+ Error RALocalAllocator::allocBranch(InstNode* node, RABlock* target, RABlock* cont) noexcept {
+                                                                               ^~~~
+[ 41%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/rapass.cpp.o
+[ 42%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/rastack.cpp.o
+[ 42%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/string.cpp.o
+[ 43%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/support.cpp.o
+[ 44%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/target.cpp.o
+[ 45%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/type.cpp.o
+[ 45%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/virtmem.cpp.o
+[ 46%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zone.cpp.o
+[ 47%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zonehash.cpp.o
+[ 48%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zonelist.cpp.o
+[ 48%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zonestack.cpp.o
+[ 49%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zonetree.cpp.o
+[ 50%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/core/zonevector.cpp.o
+[ 51%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86assembler.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 52%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86builder.cpp.o
+[ 52%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86callconv.cpp.o
+[ 53%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86compiler.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 54%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86features.cpp.o
+[ 55%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86internal.cpp.o
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit/src/asmjit/x86/x86internal.cpp:1337:13: warning: ‘void asmjit::x86::dumpAssignment(asmjit::String&, const asmjit::x86::X86FuncArgsContext&)’ defined but not used [-Wunused-function]
+ static void dumpAssignment(String& sb, const X86FuncArgsContext& ctx) noexcept {
+             ^~~~~~~~~~~~~~
+[ 55%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86instdb.cpp.o
+[ 56%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86instapi.cpp.o
+[ 57%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86logging.cpp.o
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit/src/asmjit/x86/x86logging.cpp: In function ‘asmjit::Error asmjit::x86::LoggingInternal::formatInstruction(asmjit::String&, uint32_t, const asmjit::BaseEmitter*, uint32_t, const asmjit::BaseInst&, const asmjit::Operand_*, uint32_t)’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/asmjit/src/asmjit/x86/x86logging.cpp:677:29: warning: unused variable ‘instInfo’ [-Wunused-variable]
+     const InstDB::InstInfo& instInfo = InstDB::infoById(instId);
+                             ^~~~~~~~
+[ 58%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86operand.cpp.o
+[ 58%] Building CXX object asmjit/CMakeFiles/asmjit.dir/src/asmjit/x86/x86rapass.cpp.o
+[ 59%] Linking CXX static library libasmjit.a
+[ 59%] Built target asmjit
+Scanning dependencies of target clog
+[ 59%] Building C object cpuinfo/deps/clog/CMakeFiles/clog.dir/src/clog.c.o
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c: In function ‘clog_vlog_fatal’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c:112:4: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+    write(STDERR_FILENO, out_buffer, prefix_chars + format_chars + CLOG_SUFFIX_LENGTH);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c: In function ‘clog_vlog_error’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c:188:4: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+    write(STDERR_FILENO, out_buffer, prefix_chars + format_chars + CLOG_SUFFIX_LENGTH);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c: In function ‘clog_vlog_warning’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c:264:4: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+    write(STDERR_FILENO, out_buffer, prefix_chars + format_chars + CLOG_SUFFIX_LENGTH);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c: In function ‘clog_vlog_info’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c:340:4: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+    write(STDOUT_FILENO, out_buffer, prefix_chars + format_chars + CLOG_SUFFIX_LENGTH);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c: In function ‘clog_vlog_debug’:
+/home/hessam/wav2letter/build/inference/inference/module/fbgemm/src/fbgemm/third_party/cpuinfo/deps/clog/src/clog.c:416:4: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+    write(STDOUT_FILENO, out_buffer, prefix_chars + format_chars + CLOG_SUFFIX_LENGTH);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 60%] Linking C static library libclog.a
+[ 60%] Built target clog
+Scanning dependencies of target cpuinfo
+[ 61%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/init.c.o
+[ 62%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/api.c.o
+[ 62%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/init.c.o
+[ 63%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/info.c.o
+[ 64%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/vendor.c.o
+[ 65%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/uarch.c.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 65%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/name.c.o
+[ 66%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/topology.c.o
+[ 67%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/isa.c.o
+[ 68%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/cache/init.c.o
+[ 68%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/cache/descriptor.c.o
+[ 69%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/cache/deterministic.c.o
+[ 70%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/linux/init.c.o
+[ 71%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/x86/linux/cpuinfo.c.o
+[ 72%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/linux/smallfile.c.o
+[ 72%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/linux/multiline.c.o
+[ 73%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/linux/current.c.o
+[ 74%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/linux/cpulist.c.o
+[ 75%] Building C object cpuinfo/CMakeFiles/cpuinfo.dir/src/linux/processors.c.o
+[ 75%] Linking C static library libcpuinfo.a
+[ 75%] Built target cpuinfo
+Scanning dependencies of target fbgemm_avx512
+[ 76%] Building CXX object CMakeFiles/fbgemm_avx512.dir/src/FbgemmFP16UKernelsAvx512.cc.o
+[ 77%] Building CXX object CMakeFiles/fbgemm_avx512.dir/src/UtilsAvx512.cc.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 77%] Built target fbgemm_avx512
+Scanning dependencies of target fbgemm
+[ 78%] Linking CXX static library libfbgemm.a
+[ 78%] Built target fbgemm
+Scanning dependencies of target cpuinfo_internals
+[ 79%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/init.c.o
+[ 80%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/api.c.o
+[ 81%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/init.c.o
+[ 81%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/info.c.o
+[ 82%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/vendor.c.o
+[ 83%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/uarch.c.o
+[ 84%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/name.c.o
+[ 84%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/topology.c.o
+[ 85%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/isa.c.o
+[ 86%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/cache/init.c.o
+[ 87%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/cache/descriptor.c.o
+[ 87%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/cache/deterministic.c.o
+[ 88%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/linux/init.c.o
+[ 89%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/x86/linux/cpuinfo.c.o
+[ 90%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/linux/smallfile.c.o
+[ 90%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/linux/multiline.c.o
+[ 91%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/linux/current.c.o
+[ 92%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/linux/cpulist.c.o
+[ 93%] Building C object cpuinfo/CMakeFiles/cpuinfo_internals.dir/src/linux/processors.c.o
+[ 93%] Linking C static library libcpuinfo_internals.a
+[ 93%] Built target cpuinfo_internals
+Scanning dependencies of target cache-info
+[ 94%] Building C object cpuinfo/CMakeFiles/cache-info.dir/tools/cache-info.c.o
+[ 95%] Linking C executable cache-info
+[ 95%] Built target cache-info
+Scanning dependencies of target cpu-info
+[ 96%] Building C object cpuinfo/CMakeFiles/cpu-info.dir/tools/cpu-info.c.o
+[ 97%] Linking C executable cpu-info
+[ 97%] Built target cpu-info
+Scanning dependencies of target isa-info
+[ 98%] Building C object cpuinfo/CMakeFiles/isa-info.dir/tools/isa-info.c.o
+[ 99%] Linking C executable isa-info
+[ 99%] Built target isa-info
+Scanning dependencies of target cpuid-dump
+[ 99%] Building C object cpuinfo/CMakeFiles/cpuid-dump.dir/tools/cpuid-dump.c.o
+[100%] Linking C executable cpuid-dump
+[100%] Built target cpuid-dump
+[ 16%] No install step for 'fbgemm'
+[ 16%] Completed 'fbgemm'
+[ 16%] Built target fbgemm
+Scanning dependencies of target Seq2SeqTest
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/test/Seq2SeqTest.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/CriterionUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/CriterionUtils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/CriterionUtils.cpp.o
+[ 16%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/CriterionUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/ForceAlignmentCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/ForceAlignmentCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/common/Dictionary.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/common/Utils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/common/WordUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/criterion/cpu/CriterionUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/criterion/cpu/ForceAlignmentCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/criterion/cpu/FullConnectionCriterion.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/criterion/cpu/ViterbiPath.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/LexiconDecoder.cpp.o
+[ 16%] Building CXX object CMakeFiles/Train.dir/src/criterion/CriterionUtils.cpp.o
+[ 16%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/LexiconFreeDecoder.cpp.o
+[ 16%] Building CXX object CMakeFiles/Test.dir/src/criterion/ForceAlignmentCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/LexiconSeq2SeqDecoder.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/LexiconFreeSeq2SeqDecoder.cpp.o
+[ 17%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/ForceAlignmentCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/Trie.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/decoder/Utils.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/lm/KenLM.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/lm/ConvLM.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/lm/ZeroLM.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Ceplifter.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Dct.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Derivatives.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Dither.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Mfcc.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Mfsc.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/PowerSpectrum.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/PreEmphasis.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/SpeechUtils.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/TriFilterbank.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/libraries/feature/Windowing.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/common/Defines.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/common/FlashlightUtils.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/Seq2SeqCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/Seq2SeqCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Train.dir/src/criterion/ForceAlignmentCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Test.dir/src/criterion/Seq2SeqCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/Seq2SeqCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/common/Transforms.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/common/Utils.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/backend/cuda/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/FullConnectionCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Train.dir/src/criterion/Seq2SeqCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/FullConnectionCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Test.dir/src/criterion/FullConnectionCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/FullConnectionCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/backend/cuda/CriterionUtils.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/TransformerCriterion.cpp.o
+[ 17%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/TransformerCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Train.dir/src/criterion/FullConnectionCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Test.dir/src/criterion/TransformerCriterion.cpp.o
+[ 17%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/TransformerCriterion.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/backend/cuda/ForceAlignmentCriterion.cpp.o
+[ 18%] Building CXX object CMakeFiles/Train.dir/src/criterion/TransformerCriterion.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/ContentAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/ContentAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/backend/cuda/FullConnectionCriterion.cpp.o
+[ 18%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/ContentAttention.cpp.o
+[ 18%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/ContentAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/LocationAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/LocationAttention.cpp.o
+[ 18%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/ContentAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/ConnectionistTemporalClassificationCriterion.cpp.o
+[ 18%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/LocationAttention.cpp.o
+[ 18%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/LocationAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/MultiHeadAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/MultiHeadAttention.cpp.o
+[ 18%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/LocationAttention.cpp.o
+[ 18%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/CriterionUtils.cpp.o
+[ 19%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/MultiHeadAttention.cpp.o
+[ 19%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/MultiHeadAttention.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/MedianWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/MedianWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/ForceAlignmentCriterion.cpp.o
+[ 19%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/MultiHeadAttention.cpp.o
+[ 19%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/MedianWindow.cpp.o
+[ 19%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/MedianWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/SoftPretrainWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/SoftPretrainWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/Seq2SeqCriterion.cpp.o
+[ 19%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/MedianWindow.cpp.o
+[ 19%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/SoftPretrainWindow.cpp.o
+[ 19%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/SoftPretrainWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/SoftWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/SoftWindow.cpp.o
+[ 19%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/SoftPretrainWindow.cpp.o
+[ 19%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/SoftWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/FullConnectionCriterion.cpp.o
+[ 19%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/SoftWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/criterion/attention/StepWindow.cpp.o
+[ 19%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/criterion/attention/StepWindow.cpp.o
+[ 20%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/SoftWindow.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/criterion/attention/StepWindow.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/TransformerCriterion.cpp.o
+[ 20%] Building CXX object CMakeFiles/Decoder.dir/src/criterion/attention/StepWindow.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/Featurize.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/Featurize.cpp.o
+[ 20%] Building CXX object CMakeFiles/Train.dir/src/criterion/attention/StepWindow.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/data/Featurize.cpp.o
+[ 20%] Building CXX object CMakeFiles/Decoder.dir/src/data/Featurize.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/ContentAttention.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/ListFileDataset.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/ListFileDataset.cpp.o
+[ 20%] Building CXX object CMakeFiles/Train.dir/src/data/Featurize.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/data/ListFileDataset.cpp.o
+[ 20%] Building CXX object CMakeFiles/Decoder.dir/src/data/ListFileDataset.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/LocationAttention.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/Sound.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/Utils.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/W2lDataset.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/Sound.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/Utils.cpp.o
+[ 20%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/W2lDataset.cpp.o
+[ 20%] Building CXX object CMakeFiles/Train.dir/src/data/ListFileDataset.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/data/Sound.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/data/Utils.cpp.o
+[ 20%] Building CXX object CMakeFiles/Test.dir/src/data/W2lDataset.cpp.o
+[ 20%] Building CXX object CMakeFiles/Decoder.dir/src/data/Sound.cpp.o
+[ 20%] Building CXX object CMakeFiles/Decoder.dir/src/data/Utils.cpp.o
+[ 21%] Building CXX object CMakeFiles/Decoder.dir/src/data/W2lDataset.cpp.o
+[ 21%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/MultiHeadAttention.cpp.o
+[ 21%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/W2lBlobsDataset.cpp.o
+[ 21%] Building CXX object CMakeFiles/Train.dir/src/data/Sound.cpp.o
+[ 21%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/W2lBlobsDataset.cpp.o
+[ 21%] Building CXX object CMakeFiles/Train.dir/src/data/Utils.cpp.o
+[ 21%] Building CXX object CMakeFiles/Train.dir/src/data/W2lDataset.cpp.o
+[ 21%] Building CXX object CMakeFiles/Test.dir/src/data/W2lBlobsDataset.cpp.o
+[ 21%] Building CXX object CMakeFiles/Decoder.dir/src/data/W2lBlobsDataset.cpp.o
+[ 21%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/MedianWindow.cpp.o
+[ 21%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/data/W2lListFilesDataset.cpp.o
+[ 22%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/data/W2lListFilesDataset.cpp.o
+[ 22%] Building CXX object CMakeFiles/Train.dir/src/data/W2lBlobsDataset.cpp.o
+[ 22%] Building CXX object CMakeFiles/Test.dir/src/data/W2lListFilesDataset.cpp.o
+[ 22%] Building CXX object CMakeFiles/Decoder.dir/src/data/W2lListFilesDataset.cpp.o
+[ 22%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/SoftPretrainWindow.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/data/W2lListFilesDataset.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/SoftWindow.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/module/SpecAugment.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/module/SpecAugment.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/module/SpecAugment.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/module/SpecAugment.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/criterion/attention/StepWindow.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/module/TDSBlock.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/module/TDSBlock.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/module/SpecAugment.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/module/TDSBlock.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/module/TDSBlock.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/Featurize.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/module/W2lModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/module/W2lModule.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/module/TDSBlock.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/module/W2lModule.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/module/W2lModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/ListFileDataset.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/module/W2lModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Data.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Data.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Data.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/Sound.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/Utils.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/W2lDataset.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Data.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Logger.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/Data.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Logger.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Logger.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/W2lBlobsDataset.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Logger.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Serial.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Serial.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/Logger.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Serial.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/data/W2lListFilesDataset.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Serial.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/SpeechStatMeter.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/Serial.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/SpeechStatMeter.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/SpeechStatMeter.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/SpeechStatMeter.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/module/ConvLmModule.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Distributed.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/SpeechStatMeter.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Optimizer.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Distributed.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Optimizer.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Distributed.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Optimizer.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Distributed.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Optimizer.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/module/SpecAugment.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/Distributed.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/RuntimeTest.dir/__/runtime/Helpers.cpp.o
+[ 23%] Building CXX object CMakeFiles/Train.dir/src/runtime/Optimizer.cpp.o
+[ 23%] Building CXX object src/tests/CMakeFiles/W2lModuleTest.dir/__/runtime/Helpers.cpp.o
+[ 23%] Building CXX object CMakeFiles/Test.dir/src/runtime/Helpers.cpp.o
+[ 23%] Building CXX object CMakeFiles/Decoder.dir/src/runtime/Helpers.cpp.o
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/module/TDSBlock.cpp.o
+[ 24%] Linking CXX executable RuntimeTest
+[ 24%] Building CXX object CMakeFiles/Train.dir/src/runtime/Helpers.cpp.o
+[ 24%] Linking CXX executable W2lModuleTest
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+src/tests/CMakeFiles/RuntimeTest.dir/build.make:1842: recipe for target 'src/tests/RuntimeTest' failed
+make[2]: *** [src/tests/RuntimeTest] Error 1
+CMakeFiles/Makefile2:672: recipe for target 'src/tests/CMakeFiles/RuntimeTest.dir/all' failed
+make[1]: *** [src/tests/CMakeFiles/RuntimeTest.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/module/W2lModule.cpp.o
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+src/tests/CMakeFiles/W2lModuleTest.dir/build.make:1842: recipe for target 'src/tests/W2lModuleTest' failed
+make[2]: *** [src/tests/W2lModuleTest] Error 1
+CMakeFiles/Makefile2:713: recipe for target 'src/tests/CMakeFiles/W2lModuleTest.dir/all' failed
+make[1]: *** [src/tests/CMakeFiles/W2lModuleTest.dir/all] Error 2
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Data.cpp.o
+[ 24%] Linking CXX executable Test
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+CMakeFiles/Test.dir/build.make:1838: recipe for target 'Test' failed
+make[2]: *** [Test] Error 1
+CMakeFiles/Makefile2:189: recipe for target 'CMakeFiles/Test.dir/all' failed
+make[1]: *** [CMakeFiles/Test.dir/all] Error 2
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Logger.cpp.o
+[ 24%] Linking CXX executable Decoder
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Serial.cpp.o
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+CMakeFiles/Decoder.dir/build.make:1838: recipe for target 'Decoder' failed
+make[2]: *** [Decoder] Error 1
+CMakeFiles/Makefile2:149: recipe for target 'CMakeFiles/Decoder.dir/all' failed
+make[1]: *** [CMakeFiles/Decoder.dir/all] Error 2
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/SpeechStatMeter.cpp.o
+[ 24%] Linking CXX executable Train
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+CMakeFiles/Train.dir/build.make:1838: recipe for target 'Train' failed
+make[2]: *** [Train] Error 1
+CMakeFiles/Makefile2:70: recipe for target 'CMakeFiles/Train.dir/all' failed
+make[1]: *** [CMakeFiles/Train.dir/all] Error 2
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Distributed.cpp.o
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Optimizer.cpp.o
+[ 24%] Building CXX object src/tests/CMakeFiles/Seq2SeqTest.dir/__/runtime/Helpers.cpp.o
+[ 24%] Linking CXX executable Seq2SeqTest
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_meta_get_vorbiscomments':
+flac.c:(.text+0xd3a): undefined reference to `FLAC__metadata_object_vorbiscomment_find_entry_from'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `sf_flac_error_callback':
+flac.c:(.text+0x11ae): undefined reference to `FLAC__StreamDecoderErrorStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_strings':
+flac.c:(.text+0x138c): undefined reference to `FLAC__metadata_object_new'
+flac.c:(.text+0x14dc): undefined reference to `FLAC__metadata_object_vorbiscomment_entry_from_name_value_pair'
+flac.c:(.text+0x14f8): undefined reference to `FLAC__metadata_object_vorbiscomment_append_comment'
+flac.c:(.text+0x1547): undefined reference to `FLAC__stream_encoder_set_metadata'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_header':
+flac.c:(.text+0x15e7): undefined reference to `FLAC__stream_encoder_init_stream'
+flac.c:(.text+0x1604): undefined reference to `FLAC__StreamEncoderInitStatusString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_close':
+flac.c:(.text+0x1886): undefined reference to `FLAC__metadata_object_delete'
+flac.c:(.text+0x18a5): undefined reference to `FLAC__stream_encoder_finish'
+flac.c:(.text+0x18b5): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x18e6): undefined reference to `FLAC__stream_decoder_finish'
+flac.c:(.text+0x18f5): undefined reference to `FLAC__stream_decoder_delete'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_enc_init':
+flac.c:(.text+0x1a1c): undefined reference to `FLAC__stream_encoder_delete'
+flac.c:(.text+0x1a21): undefined reference to `FLAC__stream_encoder_new'
+flac.c:(.text+0x1a61): undefined reference to `FLAC__stream_encoder_set_channels'
+flac.c:(.text+0x1aaf): undefined reference to `FLAC__stream_encoder_set_sample_rate'
+flac.c:(.text+0x1af4): undefined reference to `FLAC__stream_encoder_set_bits_per_sample'
+flac.c:(.text+0x1b36): undefined reference to `FLAC__stream_encoder_set_compression_level'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_header':
+flac.c:(.text+0x1bc5): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1bca): undefined reference to `FLAC__stream_decoder_new'
+flac.c:(.text+0x1bf9): undefined reference to `FLAC__stream_decoder_set_metadata_respond_all'
+flac.c:(.text+0x1c46): undefined reference to `FLAC__stream_decoder_init_stream'
+flac.c:(.text+0x1c64): undefined reference to `FLAC__stream_decoder_process_until_end_of_metadata'
+flac.c:(.text+0x1c99): undefined reference to `FLAC__stream_decoder_delete'
+flac.c:(.text+0x1cb1): undefined reference to `FLAC__stream_decoder_get_decode_position'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_read_loop':
+flac.c:(.text+0x1fe9): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x2004): undefined reference to `FLAC__StreamDecoderStateString'
+flac.c:(.text+0x207b): undefined reference to `FLAC__stream_decoder_process_single'
+flac.c:(.text+0x208e): undefined reference to `FLAC__stream_decoder_get_state'
+flac.c:(.text+0x20a9): undefined reference to `FLAC__StreamDecoderStateString'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_s2flac':
+flac.c:(.text+0x24f1): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_i2flac':
+flac.c:(.text+0x2655): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_f2flac':
+flac.c:(.text+0x2805): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_write_d2flac':
+flac.c:(.text+0x2dfc): undefined reference to `FLAC__stream_encoder_process_interleaved'
+/usr/local/lib/libsndfile.a(flac.c.o): In function `flac_seek':
+flac.c:(.text+0x331b): undefined reference to `FLAC__stream_decoder_seek_absolute'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_read_first_page':
+ogg.c:(.text+0x67): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0xad): undefined reference to `ogg_sync_wrote'
+ogg.c:(.text+0x134): undefined reference to `ogg_page_bos'
+ogg.c:(.text+0x16c): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x180): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0x19e): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x1df): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_fseek':
+ogg.c:(.text+0x373): undefined reference to `ogg_sync_reset'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_next_page':
+ogg.c:(.text+0x3d6): undefined reference to `ogg_sync_pageseek'
+ogg.c:(.text+0x4bb): undefined reference to `ogg_sync_buffer'
+ogg.c:(.text+0x512): undefined reference to `ogg_sync_wrote'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_next_page':
+ogg.c:(.text+0x5e0): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x60b): undefined reference to `ogg_page_eos'
+ogg.c:(.text+0x63b): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_unpack_page':
+ogg.c:(.text+0x6a5): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x6f9): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x746): undefined reference to `ogg_stream_packetout'
+ogg.c:(.text+0x775): undefined reference to `ogg_stream_packetpeek'
+ogg.c:(.text+0x7ab): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_sync_last_page_before':
+ogg.c:(.text+0x8f3): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0x90d): undefined reference to `ogg_page_granulepos'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_seek_page_search':
+ogg.c:(.text+0xab2): undefined reference to `ogg_stream_reset_serialno'
+ogg.c:(.text+0xbef): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xcea): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xe05): undefined reference to `ogg_page_serialno'
+ogg.c:(.text+0xe1d): undefined reference to `ogg_page_packets'
+ogg.c:(.text+0xe40): undefined reference to `ogg_page_granulepos'
+ogg.c:(.text+0xe84): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0xe9c): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0xf15): undefined reference to `ogg_stream_reset'
+ogg.c:(.text+0x1114): undefined reference to `ogg_stream_pagein'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_open':
+ogg.c:(.text+0x126a): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x127a): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_close':
+ogg.c:(.text+0x1306): undefined reference to `ogg_sync_clear'
+ogg.c:(.text+0x1316): undefined reference to `ogg_stream_clear'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_stream_classify':
+ogg.c:(.text+0x1339): undefined reference to `ogg_sync_init'
+ogg.c:(.text+0x134e): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_classify':
+ogg.c:(.text+0x155d): undefined reference to `ogg_page_serialno'
+/usr/local/lib/libsndfile.a(ogg.c.o): In function `ogg_page_search_continued_data':
+ogg.c:(.text+0x17cf): undefined reference to `ogg_stream_pagein'
+ogg.c:(.text+0x17ee): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_header':
+ogg_vorbis.c:(.text+0x3d): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x4d): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x94): undefined reference to `ogg_stream_packetpeek'
+ogg_vorbis.c:(.text+0xe0): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x130): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x1f2): undefined reference to `vorbis_synthesis_headerin'
+ogg_vorbis.c:(.text+0x224): undefined reference to `ogg_stream_packetout'
+ogg_vorbis.c:(.text+0x3fe): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x567): undefined reference to `vorbis_comment_query'
+ogg_vorbis.c:(.text+0x6b1): undefined reference to `vorbis_synthesis_init'
+ogg_vorbis.c:(.text+0x6cf): undefined reference to `vorbis_block_init'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_header':
+ogg_vorbis.c:(.text+0x73a): undefined reference to `vorbis_info_init'
+ogg_vorbis.c:(.text+0x782): undefined reference to `vorbis_encode_init_vbr'
+ogg_vorbis.c:(.text+0x7bc): undefined reference to `vorbis_comment_init'
+ogg_vorbis.c:(.text+0x7dd): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x955): undefined reference to `vorbis_comment_add_tag'
+ogg_vorbis.c:(.text+0x990): undefined reference to `vorbis_analysis_init'
+ogg_vorbis.c:(.text+0x9b4): undefined reference to `vorbis_block_init'
+ogg_vorbis.c:(.text+0x9d0): undefined reference to `ogg_stream_init'
+ogg_vorbis.c:(.text+0xa03): undefined reference to `vorbis_analysis_headerout'
+ogg_vorbis.c:(.text+0xa20): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa3a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa54): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xa9a): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_close':
+ogg_vorbis.c:(.text+0xb4f): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0xb6b): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0xb7d): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0xba0): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0xbc0): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0xbf7): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0xc35): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0xc5b): undefined reference to `vorbis_analysis_blockout'
+ogg_vorbis.c:(.text+0xc76): undefined reference to `vorbis_block_clear'
+ogg_vorbis.c:(.text+0xc86): undefined reference to `vorbis_dsp_clear'
+ogg_vorbis.c:(.text+0xc96): undefined reference to `vorbis_comment_clear'
+ogg_vorbis.c:(.text+0xca6): undefined reference to `vorbis_info_clear'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `ogg_vorbis_open':
+ogg_vorbis.c:(.text+0xd3f): undefined reference to `vorbis_version_string'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_read_sample':
+ogg_vorbis.c:(.text+0x1591): undefined reference to `vorbis_synthesis_read'
+ogg_vorbis.c:(.text+0x15ce): undefined reference to `vorbis_synthesis_pcmout'
+ogg_vorbis.c:(.text+0x16bb): undefined reference to `vorbis_synthesis'
+ogg_vorbis.c:(.text+0x16dd): undefined reference to `vorbis_synthesis_blockin'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_samples':
+ogg_vorbis.c:(.text+0x1809): undefined reference to `vorbis_analysis_wrote'
+ogg_vorbis.c:(.text+0x1825): undefined reference to `vorbis_analysis'
+ogg_vorbis.c:(.text+0x1837): undefined reference to `vorbis_bitrate_addblock'
+ogg_vorbis.c:(.text+0x185a): undefined reference to `ogg_stream_packetin'
+ogg_vorbis.c:(.text+0x187a): undefined reference to `ogg_stream_pageout'
+ogg_vorbis.c:(.text+0x18b1): undefined reference to `ogg_page_eos'
+ogg_vorbis.c:(.text+0x18ef): undefined reference to `vorbis_bitrate_flushpacket'
+ogg_vorbis.c:(.text+0x1915): undefined reference to `vorbis_analysis_blockout'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_s':
+ogg_vorbis.c:(.text+0x199e): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_i':
+ogg_vorbis.c:(.text+0x1aa9): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_f':
+ogg_vorbis.c:(.text+0x1bb6): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_write_d':
+ogg_vorbis.c:(.text+0x1cb5): undefined reference to `vorbis_analysis_buffer'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_seek':
+ogg_vorbis.c:(.text+0x1ee1): undefined reference to `vorbis_synthesis_restart'
+ogg_vorbis.c:(.text+0x1f4c): undefined reference to `ogg_stream_reset_serialno'
+ogg_vorbis.c:(.text+0x1fa2): undefined reference to `vorbis_synthesis_restart'
+/usr/local/lib/libsndfile.a(ogg_vorbis.c.o): In function `vorbis_calculate_page_duration':
+ogg_vorbis.c:(.text+0x20fb): undefined reference to `vorbis_packet_blocksize'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_open':
+ogg_opus.c:(.text+0x9f): undefined reference to `opus_get_version_string'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_close':
+ogg_opus.c:(.text+0x309): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x32c): undefined reference to `opus_multistream_encoder_destroy'
+ogg_opus.c:(.text+0x36f): undefined reference to `opus_multistream_decoder_destroy'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_header':
+ogg_opus.c:(.text+0x9a6): undefined reference to `ogg_page_packets'
+ogg_opus.c:(.text+0x9bd): undefined reference to `ogg_page_bos'
+ogg_opus.c:(.text+0x9dd): undefined reference to `ogg_page_serialno'
+ogg_opus.c:(.text+0xa6f): undefined reference to `ogg_stream_packetout'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_decoder':
+ogg_opus.c:(.text+0xb70): undefined reference to `opus_multistream_decoder_create'
+ogg_opus.c:(.text+0xb85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xbcd): undefined reference to `opus_multistream_decoder_destroy'
+ogg_opus.c:(.text+0xc59): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_setup_encoder':
+ogg_opus.c:(.text+0xe38): undefined reference to `opus_multistream_encoder_create'
+ogg_opus.c:(.text+0xebd): undefined reference to `opus_multistream_surround_encoder_create'
+ogg_opus.c:(.text+0xee0): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xf2d): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf71): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xf85): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0xfc5): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0xfd9): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x10af): undefined reference to `ogg_packet_clear'
+ogg_opus.c:(.text+0x1135): undefined reference to `ogg_stream_init'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_header':
+ogg_opus.c:(.text+0x1237): undefined reference to `ogg_stream_reset_serialno'
+ogg_opus.c:(.text+0x1429): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x14cc): undefined reference to `ogg_stream_flush'
+ogg_opus.c:(.text+0x14de): undefined reference to `opus_get_version_string'
+ogg_opus.c:(.text+0x1520): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x15ba): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_flush':
+ogg_opus.c:(.text+0x17f4): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x1807): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x18af): undefined reference to `ogg_stream_packetin'
+ogg_opus.c:(.text+0x18e9): undefined reference to `ogg_stream_pageout'
+ogg_opus.c:(.text+0x1931): undefined reference to `ogg_stream_flush'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_calculate_page_duration':
+ogg_opus.c:(.text+0x1982): undefined reference to `opus_packet_get_nb_samples'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_read_refill':
+ogg_opus.c:(.text+0x1bfa): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1c2c): undefined reference to `opus_packet_get_nb_samples'
+ogg_opus.c:(.text+0x1d62): undefined reference to `opus_multistream_decode_float'
+ogg_opus.c:(.text+0x1d8c): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x1e14): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_write_out':
+ogg_opus.c:(.text+0x2043): undefined reference to `opus_multistream_encoder_ctl'
+ogg_opus.c:(.text+0x2083): undefined reference to `opus_multistream_encode_float'
+ogg_opus.c:(.text+0x2096): undefined reference to `opus_strerror'
+ogg_opus.c:(.text+0x21cd): undefined reference to `ogg_stream_flush_fill'
+ogg_opus.c:(.text+0x21f5): undefined reference to `ogg_stream_pageout_fill'
+ogg_opus.c:(.text+0x227d): undefined reference to `ogg_stream_packetin'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_analyze_file':
+ogg_opus.c:(.text+0x3301): undefined reference to `ogg_page_eos'
+ogg_opus.c:(.text+0x3420): undefined reference to `ogg_page_eos'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_page_search':
+ogg_opus.c:(.text+0x37c6): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_seek_manual':
+ogg_opus.c:(.text+0x3866): undefined reference to `ogg_stream_reset'
+ogg_opus.c:(.text+0x38c9): undefined reference to `opus_multistream_decoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_command':
+ogg_opus.c:(.text+0x3bba): undefined reference to `opus_multistream_encoder_ctl'
+/usr/local/lib/libsndfile.a(ogg_opus.c.o): In function `ogg_opus_byterate':
+ogg_opus.c:(.text+0x3e54): undefined reference to `opus_packet_get_nb_samples'
+collect2: error: ld returned 1 exit status
+src/tests/CMakeFiles/Seq2SeqTest.dir/build.make:1842: recipe for target 'src/tests/Seq2SeqTest' failed
+make[2]: *** [src/tests/Seq2SeqTest] Error 1
+CMakeFiles/Makefile2:754: recipe for target 'src/tests/CMakeFiles/Seq2SeqTest.dir/all' failed
+make[1]: *** [src/tests/CMakeFiles/Seq2SeqTest.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
