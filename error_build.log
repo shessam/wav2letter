@@ -1,0 +1,183 @@
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library iomp5: not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - iomp5 - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_gnu_thread: /opt/intel/mkl/lib/intel64/libmkl_gnu_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_intel_lp64: /opt/intel/mkl/lib/intel64/libmkl_intel_lp64.so
+--   Library mkl_intel_thread: /opt/intel/mkl/lib/intel64/libmkl_intel_thread.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library pthread: /usr/lib/x86_64-linux-gnu/libpthread.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - pthread - m]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_sequential - mkl_core - m]
+--   Library mkl_gf_lp64: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so
+--   Library mkl_sequential: /opt/intel/mkl/lib/intel64/libmkl_sequential.so
+--   Library mkl_core: /opt/intel/mkl/lib/intel64/libmkl_core.so
+--   Library m: /usr/lib/x86_64-linux-gnu/libm.so
+-- Looking for cblas_sgemm
+-- Looking for cblas_sgemm - found
+-- MKL library found
+-- ArrayFire found (include: /home/hessam/git/arrayfire/include, library: ArrayFire::afcuda)
+-- Found Glog: /usr/include  
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+-- GLOG found
+-- Found GFlags: /usr/include  
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- GFLAGS found
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- OpenMP found
+-- flashlight found (include:  lib: flashlight::flashlight )
+-- flashlight built in distributed mode.
+-- flashlight built with contrib features.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- CUDA found (library: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so include: /usr/local/cuda/include)
+-- CUDA architecture flags: -gencodearch=compute_30,code=sm_30-gencodearch=compute_35,code=sm_35-gencodearch=compute_50,code=sm_50-gencodearch=compute_52,code=sm_52-gencodearch=compute_60,code=sm_60-gencodearch=compute_61,code=sm_61-gencodearch=compute_70,code=sm_70-gencodearch=compute_75,code=sm_75-gencodearch=compute_70,code=compute_70-gencodearch=compute_75,code=compute_75
+-- CBLAS found (include: /opt/intel/mkl/include, library: /opt/intel/mkl/lib/intel64/libmkl_gf_lp64.so;/opt/intel/mkl/lib/intel64/libmkl_sequential.so;/opt/intel/mkl/lib/intel64/libmkl_core.so;/usr/lib/x86_64-linux-gnu/libm.so)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found FFTW: /usr/include  
+-- FFTW found
+-- Looking for KenLM
+-- Using kenlm library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- Using kenlm utils library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- kenlm lm/model.hh found in /home/hessam/kenlm/lm/model.hh
+-- Found kenlm: /home/hessam/kenlm  
+-- Found kenlm (include: /home/hessam/kenlm, library: /home/hessam/kenlm/build/lib/libkenlm.a;/home/hessam/kenlm/build/lib/libkenlm_util.a)
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Found LibLZMA: /usr/include (found version "5.2.2") 
+-- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.6") 
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Adding warpctc:
+-- Found CUDA: /usr/local/cuda (found suitable version "10.0", minimum required is "6.5") 
+-- warpctc: cuda found TRUE
+-- warpctc: using CUDA 9.0 or above
+-- warpctc: Building shared library with GPU support
+-- Found Ogg: /usr/lib/x86_64-linux-gnu/libogg.so (found version "1.3.2") 
+-- Required SndFile dependency Ogg found.
+-- Found Vorbis: /usr/lib/x86_64-linux-gnu/libvorbis.so (found version "1.3.5") 
+-- Required SndFile dependency Vorbis found.
+-- Found VorbisEnc: /usr/lib/x86_64-linux-gnu/libvorbisenc.so (found version "1.3.5") 
+-- Required SndFile dependency VorbisEnc found.
+-- Found FLAC: /usr/lib/x86_64-linux-gnu/libFLAC.so (found version "1.3.2") 
+-- Required SndFile dependency FLAC found.
+-- Found SNDFILE: /usr/local/include  
+-- Found libsndfile: (lib: /usr/local/lib/libsndfile.a include: /usr/local/include
+-- libsndfile found.
+-- Found gflags  (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libgflags.so)
+-- GFLAGS found
+-- Looking for KenLM
+-- Using kenlm library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- Using kenlm utils library found in /home/hessam/kenlm/build/lib/libkenlm.a
+-- kenlm lm/model.hh found in /home/hessam/kenlm/lm/model.hh
+-- Found kenlm (include: /home/hessam/kenlm, library: /home/hessam/kenlm/build/lib/libkenlm.a;/home/hessam/kenlm/build/lib/libkenlm_util.a)
+ExternalProject_Add(fbgemm) downloading ...
+-- Examples: add executable simple_streaming_asr_example
+-- Examples: add executable multithreaded_streaming_asr_example
+-- Tests: add executable inference_Conv1dTest
+-- Tests: add executable inference_IdentityTest
+-- Tests: add executable inference_LayerNormTest
+-- Tests: add executable inference_LinearTest
+-- Tests: add executable inference_LogMelFeatureTest
+-- Tests: add executable inference_MemoryManagerTest
+-- Tests: add executable inference_ReluTest
+-- Tests: add executable inference_ResidualTest
+-- Tests: add executable inference_TDSBlockTest
+-- Building recipes.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hessam/wav2letter/build
